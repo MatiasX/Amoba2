@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.cella{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #ddd;
+    border: 1px solid black;
+}
+.sor::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#palya{
+    margin: 20px auto;
+    width: 500px;
+}
